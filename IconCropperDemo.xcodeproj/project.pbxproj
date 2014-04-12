@@ -19,6 +19,12 @@
 		BF5F9C8118F8FB650017940C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BF5F9C6918F8FB650017940C /* UIKit.framework */; };
 		BF5F9C8918F8FB660017940C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BF5F9C8718F8FB660017940C /* InfoPlist.strings */; };
 		BF5F9C8B18F8FB660017940C /* IconCropperDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9C8A18F8FB660017940C /* IconCropperDemoTests.m */; };
+		BF5F9C9618F8FB810017940C /* MDMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9C9518F8FB810017940C /* MDMainController.m */; };
+		BF5F9C9A18F8FF440017940C /* MDIconCropperController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9C9918F8FF440017940C /* MDIconCropperController.m */; };
+		BF5F9C9D18F9108F0017940C /* UIView+Cropper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9C9C18F9108F0017940C /* UIView+Cropper.m */; };
+		BF5F9CA018F917900017940C /* MDCropTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9C9F18F917900017940C /* MDCropTool.m */; };
+		BF5F9CA318F928DE0017940C /* UIImage+Cropper.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9CA218F928DE0017940C /* UIImage+Cropper.m */; };
+		BF5F9CA618F92C1E0017940C /* UIImage+Ljj.m in Sources */ = {isa = PBXBuildFile; fileRef = BF5F9CA518F92C1E0017940C /* UIImage+Ljj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,18 @@
 		BF5F9C8618F8FB660017940C /* IconCropperDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IconCropperDemoTests-Info.plist"; sourceTree = "<group>"; };
 		BF5F9C8818F8FB660017940C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BF5F9C8A18F8FB660017940C /* IconCropperDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconCropperDemoTests.m; sourceTree = "<group>"; };
+		BF5F9C9418F8FB810017940C /* MDMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDMainController.h; sourceTree = "<group>"; };
+		BF5F9C9518F8FB810017940C /* MDMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDMainController.m; sourceTree = "<group>"; };
+		BF5F9C9818F8FF440017940C /* MDIconCropperController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDIconCropperController.h; sourceTree = "<group>"; };
+		BF5F9C9918F8FF440017940C /* MDIconCropperController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDIconCropperController.m; sourceTree = "<group>"; };
+		BF5F9C9B18F9108F0017940C /* UIView+Cropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Cropper.h"; sourceTree = "<group>"; };
+		BF5F9C9C18F9108F0017940C /* UIView+Cropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Cropper.m"; sourceTree = "<group>"; };
+		BF5F9C9E18F917900017940C /* MDCropTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDCropTool.h; sourceTree = "<group>"; };
+		BF5F9C9F18F917900017940C /* MDCropTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDCropTool.m; sourceTree = "<group>"; };
+		BF5F9CA118F928DE0017940C /* UIImage+Cropper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cropper.h"; sourceTree = "<group>"; };
+		BF5F9CA218F928DE0017940C /* UIImage+Cropper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cropper.m"; sourceTree = "<group>"; };
+		BF5F9CA418F92C1E0017940C /* UIImage+Ljj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Ljj.h"; sourceTree = "<group>"; };
+		BF5F9CA518F92C1E0017940C /* UIImage+Ljj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Ljj.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +95,7 @@
 		BF5F9C5918F8FB650017940C = {
 			isa = PBXGroup;
 			children = (
+				BF5F9C9718F8FF280017940C /* MDImageCropper */,
 				BF5F9C6B18F8FB650017940C /* IconCropperDemo */,
 				BF5F9C8418F8FB660017940C /* IconCropperDemoTests */,
 				BF5F9C6418F8FB650017940C /* Frameworks */,
@@ -109,6 +128,8 @@
 			children = (
 				BF5F9C7418F8FB650017940C /* MDAppDelegate.h */,
 				BF5F9C7518F8FB650017940C /* MDAppDelegate.m */,
+				BF5F9C9418F8FB810017940C /* MDMainController.h */,
+				BF5F9C9518F8FB810017940C /* MDMainController.m */,
 				BF5F9C7718F8FB650017940C /* Images.xcassets */,
 				BF5F9C6C18F8FB650017940C /* Supporting Files */,
 			);
@@ -142,6 +163,23 @@
 				BF5F9C8718F8FB660017940C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF5F9C9718F8FF280017940C /* MDImageCropper */ = {
+			isa = PBXGroup;
+			children = (
+				BF5F9C9818F8FF440017940C /* MDIconCropperController.h */,
+				BF5F9C9918F8FF440017940C /* MDIconCropperController.m */,
+				BF5F9C9B18F9108F0017940C /* UIView+Cropper.h */,
+				BF5F9C9C18F9108F0017940C /* UIView+Cropper.m */,
+				BF5F9CA118F928DE0017940C /* UIImage+Cropper.h */,
+				BF5F9CA218F928DE0017940C /* UIImage+Cropper.m */,
+				BF5F9CA418F92C1E0017940C /* UIImage+Ljj.h */,
+				BF5F9CA518F92C1E0017940C /* UIImage+Ljj.m */,
+				BF5F9C9E18F917900017940C /* MDCropTool.h */,
+				BF5F9C9F18F917900017940C /* MDCropTool.m */,
+			);
+			path = MDImageCropper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +279,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF5F9C7218F8FB650017940C /* main.m in Sources */,
+				BF5F9C9D18F9108F0017940C /* UIView+Cropper.m in Sources */,
+				BF5F9CA318F928DE0017940C /* UIImage+Cropper.m in Sources */,
+				BF5F9C9A18F8FF440017940C /* MDIconCropperController.m in Sources */,
+				BF5F9CA618F92C1E0017940C /* UIImage+Ljj.m in Sources */,
 				BF5F9C7618F8FB650017940C /* MDAppDelegate.m in Sources */,
+				BF5F9CA018F917900017940C /* MDCropTool.m in Sources */,
+				BF5F9C9618F8FB810017940C /* MDMainController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
